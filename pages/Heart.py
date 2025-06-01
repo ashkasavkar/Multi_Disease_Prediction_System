@@ -14,7 +14,8 @@ st.set_page_config(page_title="Health Assistant",
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 #model = pickle.load(open("C:/Users/Ashu/Desktop/Multiple Disease Prediction System/Models/heart_disease_model.pkl", "rb"))
-model = joblib.load(open('C:/Users/Ashu/Desktop/Multiple Disease Prediction System/Models/heart_model.sav', 'rb'))
+#model = joblib.load(open('C:/Users/Ashu/Desktop/Multiple Disease Prediction System/Models/heart_model.sav', 'rb'))
+model = joblib.load(open('Models/heart_model.sav', 'rb'))
 # Title
 st.title("❤️ Heart Disease Prediction")
 
