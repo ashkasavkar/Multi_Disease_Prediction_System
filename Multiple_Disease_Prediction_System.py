@@ -9,7 +9,7 @@ st.set_page_config(page_title="Health Assistant",
                    page_icon="🧑‍⚕️")
 
 # Load the model and label encoder
-model, le = pickle.load(open('C:/Users/Ashu/Desktop/Multiple Disease Prediction System/Models/disease_model.pkl','rb'))
+model, le = pickle.load(open('Models/disease_model.pkl','rb'))
 
 
 # Define symptoms
