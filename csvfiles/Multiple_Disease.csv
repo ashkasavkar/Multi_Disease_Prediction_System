@@ -1,0 +1,5 @@
+﻿Fever,Cough,Fatigue,Headache,Sore Throat,Loss of Smell,Chest Pain,Vomiting,Diarrhea,Dizziness,Sweating,Weight Loss,Blurred Vision,Joint Pain,Disease
+1,1,1,1,1,1,0,0,0,0,1,0,0,0,COVID-19
+1,0,1,1,0,0,0,1,1,0,1,0,0,0,Typhoid
+0,0,1,0,0,0,0,0,0,1,1,1,1,1,Diabetes
+0,0,1,0,0,0,1,0,0,1,1,0,0,1,Heart Disease
