@@ -8,8 +8,8 @@ st.set_page_config(page_title="Health Assistant",
                    page_icon="🧑‍⚕️")
 
 # Load the trained model
-model = pickle.load(open("C:/Users/Ashu/Desktop/Multiple Disease Prediction System/Models/diabetes_gender_model.pkl", "rb"))
-
+# model = pickle.load(open("C:/Users/Ashu/Desktop/Multiple Disease Prediction System/Models/diabetes_gender_model.pkl", "rb"))
+model = pickle.load(open("Models/diabetes_gender_model.pkl", "rb"))
 # Title
 st.title("🩺 Diabetes Prediction System")
 
